@@ -1,4 +1,4 @@
-# Project Title - Deploy a high-availability web app using CloudFormation
+#### Project Title - Deploy a high-availability web app using CloudFormation
 
 This repo contains Cloud Formation Templates to deploy infrastructure shown below: a highly available web site on AWS
 
@@ -10,6 +10,7 @@ Udagram.json contains parameters that are specified in the template file.
 The website is accessible via the Application load balancer created
 
 How to deploy stack
+
 To deploy any of the templates, use the command below upon successfully logging in to the aws cli
 
 ```aws cloudformation create-stack \
