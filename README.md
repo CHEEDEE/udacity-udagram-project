@@ -1,4 +1,4 @@
-#Project Title - Deploy a high-availability web app using CloudFormation
+# Project Title - Deploy a high-availability web app using CloudFormation
 
 This repo contains Cloud Formation Templates to deploy infrastructure shown below: a highly available web site on AWS
 
