@@ -13,9 +13,9 @@ How to deploy stack
 
 To deploy any of the templates, use the command below upon successfully logging in to the aws cli
 
-aws cloudformation create-stack \
+```aws cloudformation create-stack \
 	--stack-name "stackName" \
 	--template-body file://network-infrastructure.yml \
 	--parameters file://network-parameters.json \
 	--region=us-east-1 \
-	--capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM"
+	--capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM"```
