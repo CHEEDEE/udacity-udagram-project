@@ -14,9 +14,3 @@ How to deploy stack
 To deploy any of the templates, use the command below upon successfully logging in to the aws cli
 
 
-```aws cloudformation create-stack \
-	--stack-name "stackName" \
-	--template-body file://Udagram.yml \
-	--parameters file://Udagram.json \
-	--region=us-east-1 \
-	--capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM"```
