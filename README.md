@@ -7,9 +7,9 @@ This repo contains Cloud Formation Templates to deploy infrastructure shown belo
 Udagram.yml contains template  to deploy the components of the infrastructure, such as VPC, Internet Gateway, Private and Public Subnets, Application load balancer, Autoscaling group and web servers.
 
 Udagram.json contains parameters that are specified in the template file.
-The website is accessible via the Application load balancer created
+The website is accessible via the Application load balancer created.
 
-How to deploy stack
+##How to deploy stack
 
 To deploy any of the templates, use the command below upon successfully logging in to the aws cli
 
